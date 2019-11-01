@@ -326,6 +326,7 @@ button:focus {
 
 .works__title {
     padding-top: 330px;
+    padding-bottom: 10px;
     text-align: center;
     font-family: "Segoe UI Semibold";
     font-size: 35px;
@@ -334,315 +335,31 @@ button:focus {
 
 .works__photo {
     display: flex;
+    
     flex-direction: row;
     flex-wrap: wrap;
     padding-bottom: 80px;
 }
 
 .works__item {
+    position: relative;
     padding: 10px;
 }
 
-.works__hover {
-    display: none;
+
+
+.works__item:hover .works_img {
+    transform: translate3d(-10px, -10px, 0);
 }
 
-.works__content1 {
-    background-image: -moz-linear-gradient(
-        0deg,
-        rgb(24, 24, 23) 0%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -webkit-linear-gradient(
-        0deg,
-        rgb(24, 24, 23) 0%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -ms-linear-gradient(
-        0deg,
-        rgb(24, 24, 23) 0%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    position: absolute;
-    left: 362px;
-    top: 1245px;
-    width: 580px;
-    height: 50px;
-    z-index: 214;
+.works__item:hover .works_img img {
+    opacity: 0.1;
 }
 
-.works__content2 {
-    background-image: -moz-linear-gradient(
-        0deg,
-        rgb(24, 24, 23) 0%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -webkit-linear-gradient(
-        0deg,
-        rgb(24, 24, 23) 0%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -ms-linear-gradient(
-        0deg,
-        rgb(24, 24, 23) 0%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    position: absolute;
-    left: 962px;
-    top: 1245px;
-    width: 280px;
-    height: 50px;
-    z-index: 230;
-}
 
-.works__content3 {
-    background-image: -moz-linear-gradient(
-        0deg,
-        rgb(24, 24, 23) 0%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -webkit-linear-gradient(
-        0deg,
-        rgb(24, 24, 23) 0%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -ms-linear-gradient(
-        0deg,
-        rgb(24, 24, 23) 0%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    position: absolute;
-    left: 1262px;
-    top: 1245px;
-    width: 280px;
-    height: 50px;
-    z-index: 236;
-}
+.works_img {
 
-.works__content4 {
-    background-image: -moz-linear-gradient(
-        0deg,
-        rgb(24, 24, 23) 0%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -webkit-linear-gradient(
-        0deg,
-        rgb(24, 24, 23) 0%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -ms-linear-gradient(
-        0deg,
-        rgb(24, 24, 23) 0%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    position: absolute;
-    left: 362px;
-    top: 1579px;
-    width: 280px;
-    height: 50px;
-    z-index: 242;
-}
-
-.works__content5 {
-    background-image: -moz-linear-gradient(
-        0deg,
-        rgb(24, 24, 23) 0%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -webkit-linear-gradient(
-        0deg,
-        rgb(24, 24, 23) 0%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -ms-linear-gradient(
-        0deg,
-        rgb(24, 24, 23) 0%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    position: absolute;
-    left: 662px;
-    top: 1579px;
-    width: 280px;
-    height: 50px;
-    z-index: 248;
-}
-
-.works__content6 {
-    background-image: -moz-linear-gradient(
-        0deg,
-        rgb(24, 24, 23) 0%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -webkit-linear-gradient(
-        0deg,
-        rgb(24, 24, 23) 0%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -ms-linear-gradient(
-        0deg,
-        rgb(24, 24, 23) 0%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    position: absolute;
-    left: 962px;
-    top: 1579px;
-    width: 580px;
-    height: 50px;
-    z-index: 254;
-}
-
-.works__text {
-    padding: 13px 20px;
-
-    font-family: "Segoe UI Bold";
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #e6e6e6;
-}
-
-.works__content1:hover {
-    background-image: -moz-linear-gradient(
-        0deg,
-        rgb(0, 0, 0) 50%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -webkit-linear-gradient(
-        0deg,
-        rgb(0, 0, 0) 50%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -ms-linear-gradient(
-        0deg,
-        rgb(0, 0, 0) 50%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    position: absolute;
-    left: 362px;
-    top: 1245px;
-    width: 580px;
-    height: 50px;
-    z-index: 214;
-}
-
-.works__content2:hover {
-    background-image: -moz-linear-gradient(
-        0deg,
-        rgb(0, 0, 0) 50%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -webkit-linear-gradient(
-        0deg,
-        rgb(0, 0, 0) 50%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -ms-linear-gradient(
-        0deg,
-        rgb(0, 0, 0) 50%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    position: absolute;
-    left: 962px;
-    top: 1245px;
-    width: 280px;
-    height: 50px;
-    z-index: 230;
-}
-
-.works__content3:hover {
-    background-image: -moz-linear-gradient(
-        0deg,
-        rgb(0, 0, 0) 50%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -webkit-linear-gradient(
-        0deg,
-        rgb(0, 0, 0) 50%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -ms-linear-gradient(
-        0deg,
-        rgb(0, 0, 0) 50%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    position: absolute;
-    left: 1262px;
-    top: 1245px;
-    width: 280px;
-    height: 50px;
-    z-index: 236;
-}
-
-.works__content4:hover {
-    background-image: -moz-linear-gradient(
-        0deg,
-        rgb(0, 0, 0) 50%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -webkit-linear-gradient(
-        0deg,
-        rgb(0, 0, 0) 50%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -ms-linear-gradient(
-        0deg,
-        rgb(0, 0, 0) 50%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    position: absolute;
-    left: 362px;
-    top: 1579px;
-    width: 280px;
-    height: 50px;
-    z-index: 242;
-}
-
-.works__content5:hover {
-    background-image: -moz-linear-gradient(
-        0deg,
-        rgb(0, 0, 0) 50%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -webkit-linear-gradient(
-        0deg,
-        rgb(0, 0, 0) 50%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -ms-linear-gradient(
-        0deg,
-        rgb(0, 0, 0) 50%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    position: absolute;
-    left: 662px;
-    top: 1579px;
-    width: 280px;
-    height: 50px;
-    z-index: 248;
-}
-
-.works__content6:hover {
-    background-image: -moz-linear-gradient(
-        0deg,
-        rgb(0, 0, 0) 50%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -webkit-linear-gradient(
-        0deg,
-        rgb(0, 0, 0) 50%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    background-image: -ms-linear-gradient(
-        0deg,
-        rgb(0, 0, 0) 50%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    position: absolute;
-    left: 962px;
-    top: 1579px;
-    width: 580px;
-    height: 50px;
-    z-index: 254;
+    transition: transform 0.2s linear;
 }
 
 /*advantage*/
@@ -707,17 +424,7 @@ button:focus {
     padding-right: 115px;
 }
 
-.advantage_item1::after {
-    position: absolute;
-    float: right;
-    content: "";
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    top: 2000px;
-    right: 943px;
-    background-color: #efaf4a;
-}
+
 
 .advantage_item2 {
     margin-top: 180px;
@@ -725,34 +432,13 @@ button:focus {
     text-align: right;
 }
 
-.advantage_item2::before {
-    position: absolute;
-    float: right;
-    content: "";
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    top: 2155px;
-    right: 943px;
-    background-color: #efaf4a;
-}
 
 .advantage_item3 {
     margin-top: 180px;
     padding-right: 115px;
 }
 
-.advantage_item2::after {
-    position: absolute;
-    float: right;
-    content: "";
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    top: 2340px;
-    right: 943px;
-    background-color: #efaf4a;
-}
+
 
 .advantage_item4 {
     margin-top: 200px;
@@ -760,17 +446,7 @@ button:focus {
     text-align: right;
 }
 
-.advantage_item4::before {
-    position: absolute;
-    float: right;
-    content: "";
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    top: 2505px;
-    right: 943px;
-    background-color: #efaf4a;
-}
+
 
 /* steps */
 
