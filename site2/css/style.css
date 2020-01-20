@@ -678,11 +678,53 @@ hr {
     .posts_inner {
         padding: 0 100px;
     }
-    hr{
+    hr {
         width: 1310px;
     }
-    .rights{
+    .rights {
         padding-right: 30px;
         padding-left: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .intro_title {
+        font-size: 50px;
+    }
+    .intro_text {
+        width: 700px;
+        font-size: 22px;
+    }
+    .services_inner {
+        flex-wrap: wrap;
+        padding-top: 120px;
+    }
+    .services_item {
+        width: 50%;
+    }
+    .services_text {
+        width: 700px;
+    }
+
+    .services_item-text{
+        margin: 0;
+        padding-bottom: 120px;
+        padding-right: 40px;
+        width: auto;
+    }
+    .whatis_text{
+        width: 700px;
+    }
+    .whatis_img-left{
+        top: 216px;
+        left: 50px;
+    }
+    .whatis_img-center{
+        top: -206px;
+        left: 140px;
+    }
+    .whatis_img-right{
+        top: -528px;
+        left: 400px;
     }
 }
