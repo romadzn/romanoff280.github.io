@@ -704,27 +704,83 @@ hr {
     }
     .services_text {
         width: 700px;
+        font-size: 22px;
     }
 
-    .services_item-text{
+    .services_item-text {
         margin: 0;
         padding-bottom: 120px;
         padding-right: 40px;
         width: auto;
     }
-    .whatis_text{
+    .whatis_text {
         width: 700px;
+        font-size: 22px;
     }
-    .whatis_img-left{
-        top: 216px;
+    .whatis_img-left {
+        top: 222px;
         left: 50px;
     }
-    .whatis_img-center{
-        top: -206px;
+    .whatis_img-center {
+        top: -200px;
         left: 140px;
     }
-    .whatis_img-right{
-        top: -528px;
+    .whatis_img-right {
+        top: -522px;
         left: 400px;
+    }
+    .posts_inner {
+        margin-top: 90px;
+        padding: 0;
+    }
+    .facts_title {
+        font-size: 46px;
+    }
+    .facts_number {
+        font-size: 52px;
+    }
+    .facts_text {
+        font-size: 22px;
+    }
+    .reviews_name {
+        font-size: 46px;
+    }
+    .reviews_text {
+        font-size: 22px;
+    }
+    .recent_post-title {
+        font-size: 22px;
+    }
+    .recent_comments-title {
+        font-size: 22px;
+    }
+    .tags_title {
+        font-size: 22px;
+    }
+    .adress_title {
+        font-size: 22px;
+    }
+    .recent_post-link {
+        font-size: 16px;
+    }
+    .recent_comments-link {
+        font-size: 16px;
+    }
+    .adress_street {
+        font-size: 16px;
+    }
+    .adress_phone {
+        font-size: 16px;
+    }
+    .adress_email {
+        font-size: 16px;
+    }
+    .rights_text {
+        font-size: 22px;
+    }
+
+    hr{
+        margin-top: 25px;
+        width: 960px;
     }
 }
