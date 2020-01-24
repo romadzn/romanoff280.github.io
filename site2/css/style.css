@@ -249,6 +249,8 @@ h6 {
 }
 
 .whatis_img-left {
+    height: auto;
+    width: auto;
     position: relative;
     top: 145px;
     left: 410px;
@@ -256,6 +258,8 @@ h6 {
 }
 
 .whatis_img-center {
+    height: auto;
+    width: auto;
     position: relative;
     top: 145px;
     left: 20px;
@@ -263,6 +267,8 @@ h6 {
 }
 
 .whatis_img-right {
+    height: auto;
+    width: auto;
     position: relative;
     top: 145px;
     right: 361px;
@@ -779,8 +785,118 @@ hr {
         font-size: 22px;
     }
 
-    hr{
+    hr {
         margin-top: 25px;
         width: 960px;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav_menu {
+        display: none;
+    }
+    .intro_title {
+        font-size: 40px;
+    }
+    .intro_text {
+        width: 500px;
+        left: 20%;
+        font-size: 18px;
+    }
+    .services_title {
+        font-size: 40px;
+    }
+    .services_text {
+        width: 600px;
+        left: 10%;
+        font-size: 18px;
+    }
+    .whatis_img-left {
+        display: none;
+    }
+    .whatis_img-center {
+        width: auto;
+        height: auto;
+        top: 146px;
+        left: 4%;
+    }
+    .whatis_img-right {
+        display: none;
+    }
+    .whatis_title {
+        font-size: 40px;
+    }
+    .whatis_text {
+        width: 600px;
+        font-size: 18px;
+    }
+    .posts_title {
+        font-size: 40px;
+    }
+    .posts_text {
+        font-size: 18px;
+    }
+    .posts_inner {
+        padding-left: 130px;
+    }
+    .facts_title {
+        font-size: 40px;
+    }
+    .facts_number {
+        font-size: 40px;
+    }
+    .facts_text {
+        font-size: 18px;
+    }
+    .facts_dots li {
+        left: 46%;
+    }
+    .reviews_name {
+        font-size: 40px;
+    }
+    .reviews_text {
+        font-size: 18px;
+    }
+    .reviews_dots li{
+        left: 42%;
+    }
+    .recent_post-title{
+        font-size: 20px;
+    }
+    .recent_comments-title{
+        font-size: 20px;
+    }
+    .tags_title {
+        font-size: 20px;
+    }
+    .adress_title {
+        font-size: 20px;
+    }
+    .recent_post-link {
+        font-size: 12px;
+    }
+    .recent_comments-link {
+        font-size: 12px;
+    }
+    .adress_street {
+        font-size: 12px;
+    }
+    .adress_phone {
+        font-size: 12px;
+    }
+    .adress_email {
+        font-size: 12px;
+    }
+    .rights_text {
+        font-size: 18px;
+    }
+    hr{
+        width: 750px;
+    }
+}
+
+@media (max-width: 768px){
+    .whatis_img-center{
+        left: 3%;
     }
 }
