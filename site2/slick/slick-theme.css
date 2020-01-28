@@ -195,11 +195,23 @@
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .slick-prev {
         left: 90px;
     }
     .slick-next {
         right: 80px;
+    }
+}
+
+@media (max-width: 320px) {
+    .slick-prev {
+        display: none;
+    }
+    .slick-next {
+        display: none;
+    }
+    .slick-dots li button:before {
+        font-size: 18px;
     }
 }
