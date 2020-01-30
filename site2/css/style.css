@@ -278,6 +278,10 @@ h6 {
 /* END WHATIS  */
 
 /* START POSTS */
+.posts {
+    height: auto;
+    width: auto;
+}
 
 .posts_title {
     padding-top: 170px;
@@ -467,7 +471,7 @@ h6 {
 
 .footer {
     width: 100%;
-    height: 577px;
+    height: auto;
     background-color: #333333;
 }
 
@@ -902,6 +906,9 @@ hr {
 }
 
 @media (max-width: 320px) {
+    .container {
+        padding: 0 20px;
+    }
     .header {
         padding-left: 10px;
     }
@@ -918,10 +925,10 @@ hr {
         font-size: 30px;
     }
     .services_dots li {
-        margin: 0 1px;
-        width: 8px;
-        height: 8px;
-        left: 42%;
+        margin: 0 2px;
+        width: 9px;
+        height: 9px;
+        left: 125px;
     }
     .services_text {
         width: auto;
@@ -935,13 +942,70 @@ hr {
         flex-direction: column;
     }
     .services_item {
-        padding-left: 60px;
+        width: 100%;
     }
     .services_item-text {
+        right: 50px;
+        width: 250px;
         padding-right: 0;
+        padding-left: 30px;
     }
+    .whatis {
+        height: 600px;
+    }
+    .whatis_title {
+        font-size: 30px;
+    }
+    .whatis_dots li {
+        margin: 0 2px;
+        width: 9px;
+        height: 9px;
+        left: 125px;
+    }
+
     .whatis_text {
         width: auto;
+        left: 0;
+        font-size: 16px;
+    }
+    .posts_inner {
+        margin: 100px 0;
+        padding: 0;
+    }
+    .posts_item {
+        margin: 30px 0 50px 0;
+        padding: 20px;
+        width: 280px;
+        height: 450px;
+    }
+    .posts_title {
+        font-size: 30px;
+    }
+    .posts_dots li {
+        margin: 0 2px;
+        width: 9px;
+        height: 9px;
+        left: 125px;
+    }
+    .posts_text {
+        font-size: 16px;
+    }
+    .posts_item-title a {
+        font-size: 30px;
+    }
+    .posts_img {
+        height: 190px;
+        width: 240px;
+    }
+    .facts_title {
+        padding-top: 60px;
+        font-size: 30px;
+    }
+    .facts_dots li {
+        margin: 0 2px;
+        width: 9px;
+        height: 9px;
+        left: 85px;
     }
     .facts_firstpage {
         display: flex;
@@ -949,13 +1013,89 @@ hr {
         flex-wrap: wrap;
     }
     .facts_item {
+        padding-bottom: 15px;
         width: 100%;
     }
-
-    .whatis_img-center {
+    .facts_number {
+        font-size: 30px;
+    }
+    .facts_text {
+        font-size: 16px;
+    }
+    .whatis_img-center,
+    .whatis_img-left,
+    .whatis_img-right {
         display: none;
     }
-    .posts_item {
-        display: none;
+    .reviews_inner {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 50px;
+    }
+    .reviews_content {
+        padding-top: 10px;
+    }
+    .reviews_img {
+        padding-top: 20px;
+        text-align: center;
+        padding-right: 0;
+        width: 200px;
+        height: 200px;
+    }
+    .reviews_name {
+        font-size: 30px;
+        text-align: center;
+    }
+    .reviews_text {
+        font-size: 16px;
+        text-align: center;
+    }
+    .reviews_dots {
+        margin-top: 50px;
+    }
+    .reviews_dots li {
+        margin: 0 2px;
+        width: 9px;
+        height: 9px;
+        left: 100px;
+    }
+    .footer {
+        height: auto;
+    }
+    .footer_inner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .recent_posts,
+    .recent_comments {
+        width: 300px;
+        padding: 0 0 20px 0;
+    }
+
+    .adress_street,
+    .adress_phone,
+    .tags {
+        padding-bottom: 10px;
+    }
+    .rights {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .rights_text {
+        font-size: 16px;
+    }
+    hr {
+        width: 280px;
+    }
+    #facebook,
+    #twitter,
+    #google {
+        padding: 30px 10px 0 10px;
+        font-size: 50px;
     }
 }
