@@ -1086,7 +1086,7 @@ hr {
         padding-bottom: 10px;
     }
     .adress_street,
-    .adress_phone{
+    .adress_phone {
         padding-bottom: 30px;
     }
     .rights {
@@ -1100,6 +1100,209 @@ hr {
     }
     hr {
         width: 400px;
+    }
+    #facebook,
+    #twitter,
+    #google {
+        padding: 30px 10px 0 10px;
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 380px) {
+    .container {
+        padding: 0 20px;
+    }
+    .header {
+        padding-left: 10px;
+    }
+    .intro_title {
+        font-size: 32px;
+    }
+    .intro_text {
+        padding: 20px 10px;
+        width: auto;
+        left: 0;
+        font-size: 16px;
+    }
+    .services_title {
+        padding-top: 120px;
+        font-size: 32px;
+    }
+    .services_dots li {
+        margin: 0 2px;
+        width: 9px;
+        height: 9px;
+        left: 155px;
+    }
+    .services_text {
+        width: auto;
+        left: 0;
+        font-size: 16px;
+    }
+    .services_inner {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .services_item {
+        width: 100%;
+    }
+    .services_item-text {
+        width: 300px;
+        padding-right: 0;
+    }
+    .whatis {
+        height: 600px;
+    }
+    .whatis_title {
+        font-size: 32px;
+    }
+    .whatis_dots li {
+        margin: 0 2px;
+        width: 9px;
+        height: 9px;
+        left: 155px;
+    }
+
+    .whatis_text {
+        width: auto;
+        left: 0;
+        font-size: 16px;
+    }
+    .whatis_img-center {
+        display: none;
+    }
+    .posts_inner {
+        margin: 100px 0;
+        padding: 0;
+    }
+    .posts_item {
+        margin: 30px 5px 50px 5px;
+        padding: 20px;
+        width: 380px;
+        height: 470px;
+    }
+    .posts_title {
+        font-size: 32px;
+    }
+    .posts_dots li {
+        margin: 0 2px;
+        width: 9px;
+        height: 9px;
+        left: 155px;
+    }
+    .posts_text {
+        font-size: 16px;
+    }
+    .posts_item-title a {
+        font-size: 30px;
+    }
+    .posts_img {
+        height: 240px;
+        width: 290px;
+    }
+    .facts_title {
+        padding-top: 110px;
+        font-size: 32px;
+    }
+    .facts_dots li {
+        margin: 0 2px;
+        width: 9px;
+        height: 9px;
+        left: 115px;
+    }
+    .facts_firstpage {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .facts_item {
+        padding: 20px;
+        width: 50%;
+    }
+    .facts_number {
+        font-size: 32px;
+    }
+    .facts_text {
+        font-size: 18px;
+    }
+    .whatis_img-center,
+    .whatis_img-left,
+    .whatis_img-right {
+        display: none;
+    }
+    .reviews_inner {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 50px;
+    }
+    .reviews_content {
+        padding-top: 10px;
+    }
+    .reviews_img {
+        padding-top: 20px;
+        text-align: center;
+        padding-right: 0;
+        width: 250px;
+        height: 250px;
+    }
+    .reviews_name {
+        font-size: 32px;
+        text-align: center;
+    }
+    .reviews_text {
+        font-size: 16px;
+        text-align: center;
+    }
+    .reviews_dots {
+        margin-top: 50px;
+    }
+    .reviews_dots li {
+        margin: 0 2px;
+        width: 9px;
+        height: 9px;
+        left: 125px;
+    }
+    .footer {
+        height: auto;
+    }
+    .footer_inner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .recent_posts,
+    .recent_comments,
+    .tags,
+    .adress {
+        width: 400px;
+        padding: 0 0 20px 0;
+    }
+
+    .adress_street,
+    .adress_phone,
+    .tags {
+        padding-bottom: 10px;
+    }
+    .adress_street,
+    .adress_phone {
+        padding-bottom: 30px;
+    }
+    .rights {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .rights_text {
+        font-size: 16px;
+    }
+    hr {
+        width: 360px;
     }
     #facebook,
     #twitter,
