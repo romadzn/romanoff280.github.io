@@ -205,6 +205,12 @@
 }
 
 @media (max-width: 480px) {
+    .slick-next:before {
+        display: none;
+    }
+    .slick-next:after {
+        display: none;
+    }
     .slick-prev {
         display: none;
     }
