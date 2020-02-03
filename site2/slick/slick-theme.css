@@ -208,7 +208,13 @@
     .slick-next:before {
         display: none;
     }
-    .slick-next:after {
+    [dir="rtl"] .slick-next:before {
+        display: none;
+    }
+    .slick-prev:before {
+        display: none;
+    }
+    [dir="rtl"] .slick-prev:before {
         display: none;
     }
     .slick-prev {
