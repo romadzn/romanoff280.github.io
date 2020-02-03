@@ -215,6 +215,17 @@
         font-size: 20px;
     }
 }
+@media (max-width: 414px) {
+    .slick-prev {
+        display: none;
+    }
+    .slick-next {
+        display: none;
+    }
+    .slick-dots li button:before {
+        font-size: 20px;
+    }
+}
 
 @media (max-width: 380px) {
     .slick-prev {
