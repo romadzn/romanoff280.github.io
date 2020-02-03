@@ -8,5 +8,13 @@ introSlider.slick({
     autoplay: true,
     autoplaySpeed: 4000,
     dots: true,
-    arrows: true
+    arrows: true,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                arrows: false
+            }
+        }
+    ]
 });
