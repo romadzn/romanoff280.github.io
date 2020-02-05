@@ -1111,7 +1111,7 @@ hr {
 
 @media (max-width: 414px) {
     .container {
-        padding: 0 20px;
+        padding: 0;
     }
     .header {
         padding-left: 10px;
