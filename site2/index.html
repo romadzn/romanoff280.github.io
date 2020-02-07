@@ -15,7 +15,7 @@
         <title>Ubiquity</title>
     </head>
     <body>
-        <header class="header header--fixed">
+        <header class="header" id="header">
             <div class="header__inner">
             <div class="header_logo">
                 <img class="logo" src="assets/LOGO.png" alt="logo" />
@@ -24,22 +24,22 @@
                     <div class="header_text">Professional Web UI</div>
                 </div>
             </div>
-            <div class="nav_menu">
-                <a class="nav_item" href="#">Home</a>
-                <a class="nav_item" href="#">About</a>
-                <a class="nav_item" href="#">Portfolio</a>
-                <a class="nav_item" href="#">Blog</a>
-                <a class="nav_item" href="#">Contact</a>
+            <div class="nav_menu" id="nav">
+                <a class="nav_item" href="#" data-scroll="#intro">Home</a>
+                <a class="nav_item" href="#" data-scroll="#services">About</a>
+                <a class="nav_item" href="#" data-scroll="#whatis">Portfolio</a>
+                <a class="nav_item" href="#" data-scroll="#posts">Blog</a>
+                <a class="nav_item" href="#" data-scroll="#footer">Contact</a>
             </div>
 
-            <button class="nav-toggle" type="button">
+            <button class="nav-toggle" id="nav-toggle" type="button">
                 <span class="nav-toggle__item">Menu</span>
             </button>
         </div>
         </header>
         <!-- END HEADER -->
 
-        <div class="intro">
+        <div class="intro" id="intro">
             <div id="intro_slider">
                 <div class="intro_item">
                     <div class="intro_title">At Ubiquity, We care</div>
@@ -109,7 +109,7 @@
         </div>
         <!-- END INTRO -->
 
-        <div class="services">
+        <div class="services" id="services">
             <div class="container">
                 <div class="services_title">Our Services</div>
                 <ul class="services_dots">
@@ -164,7 +164,7 @@
         </div>
         <!-- END SERVICES -->
 
-        <div class="whatis">
+        <div class="whatis" id="whatis">
             <div class="container">
                 <div class="whatis_title">What is Ubiquity</div>
                 <ul class="whatis_dots">
@@ -197,7 +197,7 @@
         </div>
         <!-- END WHATIS -->
 
-        <div class="posts">
+        <div class="posts" id="posts">
             <div class="container">
                 <div class="posts_title">Latest Posts</div>
                 <ul class="posts_dots">
@@ -374,7 +374,7 @@
         </div>
         <!-- END REVIEWS -->
         <!-- START FOOTER -->
-        <footer class="footer">
+        <footer class="footer" id="footer">
             <div class="container">
                 <div class="footer_inner">
                     <div class="recent_posts">
