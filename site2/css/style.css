@@ -1208,7 +1208,7 @@ hr {
         font-size: 50px;
     }
 }
-@media (max-width: 450px) {
+@media (max-width: 470px) {
     .container {
         padding: 0 20px;
     }
