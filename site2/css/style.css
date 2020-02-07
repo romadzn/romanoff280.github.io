@@ -1250,7 +1250,7 @@ hr {
     }
     .services_item-text {
         width: auto;
-        /* padding-left: 0; */
+        padding: 10px 30px 100px 30px;
     }
     .whatis {
         width: 100%;
