@@ -156,10 +156,50 @@ hr {
 
 /* intro ============================================================================== */
 .intro__title {
-    padding-top: 205px;
+    padding-top: 175px;
     font-size: 42px;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
     color: #ffffff;
+}
+
+.intro__content-inner {
+    display: flex;
+    justify-content: center;
+}
+.intro__image-polygon {
+    position: relative;
+    left: 10px;
+    padding: 40px 55px 0 55px;
+}
+.intro__polygon-firsttext {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    top: 70px;
+    left: 70px;
+    width: 100%;
+}
+.intro__polygon-text {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    top: 70px;
+    left: 70px;
+    width: 100%;
+}
+#intro__circle-icon {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    top: 75px;
+    left: 85px;
+    width: 100%;
 }
