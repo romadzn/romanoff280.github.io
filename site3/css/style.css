@@ -31,7 +31,13 @@ h6 {
     margin: 0;
 }
 
-/* intro header*/
+hr {
+    opacity: 0.1;
+    height: 1px;
+    background-color: #787ccc;
+}
+
+/*header contacts================================================================================*/
 .intro {
     width: 100%;
     height: 840px;
@@ -40,11 +46,12 @@ h6 {
 
 .header__contacts-inner {
     display: flex;
+    justify-content: space-between;
 }
 
 .header__contacts {
     display: flex;
-    padding-top: 20px;
+    padding: 20px 0 20px 0;
 }
 
 .header__livechat {
@@ -55,6 +62,10 @@ h6 {
     font-size: 12px;
     padding-right: 15px;
     color: #ffffff;
+    transition: color 0.2s linear;
+}
+#header__chat-icon:hover {
+    color: #00aeef;
 }
 .header__chat-text,
 .header__phone-text,
@@ -62,8 +73,11 @@ h6 {
     font-size: 12px;
     font-weight: 400;
     color: #ffffff;
+    transition: color 0.2s linear;
 }
-
+.header__chat-text:hover {
+    color: #00aeef;
+}
 .header__phone {
     display: flex;
     align-items: center;
@@ -81,5 +95,71 @@ h6 {
 #header__mail-icon {
     font-size: 12px;
     padding: 0 15px 0 55px;
+    color: #ffffff;
+}
+
+.header__profile {
+    padding-top: 20px;
+}
+
+.header__buy-btn {
+    font-size: 14px;
+    padding: 7px 9px 7px 8px;
+    border-radius: 50%;
+    background-color: #00aeef;
+    color: #ffffff;
+    transition: background-color 0.2s linear;
+}
+.header__buy-btn:hover {
+    background-color: #ffffff;
+    color: #00aeef;
+}
+
+.header__profile-btn {
+    margin-left: 15px;
+    font-size: 14px;
+    padding: 7px 10px 7px 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #00aeef;
+    transition: background-color 0.2s linear;
+}
+.header__profile-btn:hover {
+    background-color: #00aeef;
+    color: #ffffff;
+}
+
+/* header menu =========================================================================*/
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo {
+    width: auto;
+    height: auto;
+}
+.header__menu {
+    display: flex;
+    padding-top: 16px;
+}
+.header__menu-item {
+    padding-left: 55px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    transition: color 0.2s linear;
+}
+.header__menu-item:hover {
+    color: #00aeef;
+}
+
+/* intro ============================================================================== */
+.intro__title {
+    padding-top: 205px;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
     color: #ffffff;
 }
