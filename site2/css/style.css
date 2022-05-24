@@ -328,23 +328,7 @@ h6 {
     color: #eeeeee;
 }
 
-.whatis_img-left {
-    height: auto;
-    width: auto;
-    position: relative;
-    top: 145px;
-    left: 410px;
-    z-index: 1;
-}
 
-.whatis_img-center {
-    height: auto;
-    width: auto;
-    position: relative;
-    top: 145px;
-    left: 20px;
-    z-index: 2;
-}
 
 
 
