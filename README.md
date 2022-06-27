@@ -1,6 +1,6 @@
 # romanoff280.github.io
 
-Вёрстка
+HTML, CSS testing
 
 You can click to link if you want to watch my works:
 
