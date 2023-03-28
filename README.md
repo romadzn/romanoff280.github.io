@@ -1,6 +1,6 @@
 # romanoff280.github.io
 
-HTML, CSS testing
+HTML, CSS
 
 You can click to link if you want to watch my work:
 
